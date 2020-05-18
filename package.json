@@ -1,0 +1,27 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "A README.md file that describes your work, conforming to the template A unique branch name for each assignment (i.e. notes-class-01) Working feature requirements Proper file, folder names, according to the assignment A pull request for that branch A UML Diagram of your application’s architecture",
+  "main": "notes.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAbuSamaan-401-advanced-javascript/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAbuSamaan-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/AhmedAbuSamaan-401-advanced-javascript/notes#readme",
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "minimist": "^1.2.5"
+  }
+}
