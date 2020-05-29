@@ -8,16 +8,20 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "is-url": "^1.2.4",
     "minimist": "^1.2.5",
     "mongoose": "^5.9.16",
     "superagent": "^5.2.2"
   },
   "devDependencies": {
-    "faker": "^4.1.0"
+    "@code-fellows/supergoose": "^1.0.2",
+    "eslint": "^7.1.0",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
