@@ -1,16 +1,21 @@
 # notes
-## class-01
+## class-03
 
-## LAB - Class 01
+## LAB - Class 03
 #### Project: Notesy
 #### Author: Ahmed Abu Samaan
 
 ### submission PR
-https://github.com/AhmedAbuSamaan-401-advanced-javascript/notes/pull/2
+https://github.com/AhmedAbuSamaan-401-advanced-javascript/notes/pull/4
 
 ### Setup
- "is-url": "^1.2.4",
- "minimist": "^1.2.5"
+    "dotenv": "^8.2.0",
+    "is-url": "^1.2.4",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.16",
+    "superagent": "^5.2.2"
+
+    "faker": "^4.1.0"
 
 ### How to initialize/run your application (where applicable)
 npm init -y 
